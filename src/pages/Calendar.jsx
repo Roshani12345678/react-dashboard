@@ -5,7 +5,6 @@ import { DatePickerComponent } from '@syncfusion/ej2-react-calendars';
 import { scheduleData } from '../data/dummy';
 import { Header } from '../components';
 
-// eslint-disable-next-line react/destructuring-assignment
 const PropertyPane = (props) => <div className="mt-5">{props.children}</div>;
 
 const Scheduler = () => {
@@ -17,7 +16,6 @@ const Scheduler = () => {
   };
 
   const onDragStart = (arg) => {
-    // eslint-disable-next-line no-param-reassign
     arg.navigation.enable = true;
   };
 
@@ -27,7 +25,7 @@ const Scheduler = () => {
       <ScheduleComponent
         height="650px"
         ref={(schedule) => setScheduleObj(schedule)}
-        selectedDate={new Date(2021, 0, 10)}
+        selectedDate={new Date(Date.now())}
         eventSettings={{ dataSource: scheduleData }}
         dragStart={onDragStart}
       >
@@ -44,7 +42,7 @@ const Scheduler = () => {
             <tr style={{ height: '50px' }}>
               <td style={{ width: '100%' }}>
                 <DatePickerComponent
-                  value={new Date(2025, 6, 1)}
+                  value={new Date(Date.now())}
                   showClearButton={false}
                   placeholder="Current Date"
                   floatLabelType="Always"

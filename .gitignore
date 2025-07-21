@@ -1,0 +1,74 @@
+# dependencies
+node_modules/
+
+# dotenv environment variables
+.env
+.env.* 
+
+# production build
+/build
+/dist
+
+# misc
+.DS_Store
+Thumbs.db
+
+# log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editor folders and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific files
+*.swp
+*.bak
+*.tmp
+
+# test coverage
+coverage/
+
+# local development
+*.local
+
+# Optional: if you're using TypeScript
+*.tsbuildinfo
+
+# Optional: if you're using eslint/prettier cache
+.eslintcache
+.prettiercache
+
+# Optional: if you use storybook
+.storybook-out/
+
+# Optional: if you use firebase
+.firebase/
+
+# Optional: if using parcel
+.cache/
+.parcel-cache/
+
+# Optional: if you use Netlify CLI
+.netlify/
+
+# Optional: if using vercel
+.vercel/
+
+# Optional: if you use next.js
+.next/
+
+# Optional: if using redux persist
+persist-store/
+
+# Optional: dotenv override config
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

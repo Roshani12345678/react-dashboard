@@ -82,42 +82,7 @@ const gridEmployeeCountry = (props) => (
 export const EditorData = () => (
   <div>
     <h3>
-      Try React
-      React has been designed from the start for gradual adoption, and you can use as little or as much React as you need. Whether you want to get a taste of React, add some interactivity to a simple HTML page, or start a complex React-powered app, the links in this section will help you get started.
-
-      Online Playgrounds
-      If you’re interested in playing around with React, you can use an online code playground. Try a Hello World template on CodePen, CodeSandbox, or Stackblitz.
-
-      If you prefer to use your own text editor, you can also download this HTML file, edit it, and open it from the local filesystem in your browser. It does a slow runtime code transformation, so we’d only recommend using this for simple demos.
-
-      Add React to a Website
-      You can add React to an HTML page in one minute. You can then either gradually expand its presence, or keep it contained to a few dynamic widgets.
-
-      Create a New React App
-      When starting a React project, a simple HTML page with script tags might still be the best option. It only takes a minute to set up!
-
-      As your application grows, you might want to consider a more integrated setup. There are several JavaScript toolchains we recommend for larger applications. Each of them can work with little to no configuration and lets you take full advantage of the rich React ecosystem. Learn how.
-
-      Learn React
-      People come to React from different backgrounds and with different learning styles. Whether you prefer a more theoretical or a practical approach, we hope you’ll find this section helpful.
-
-      If you prefer to learn by doing, start with our practical tutorial.
-      If you prefer to learn concepts step by step, start with our guide to main concepts.
-      Like any unfamiliar technology, React does have a learning curve. With practice and some patience, you will get the hang of it.
-
-      First Examples
-      The React homepage contains a few small React examples with a live editor. Even if you don’t know anything about React yet, try changing their code and see how it affects the result.
-
-      React for Beginners
-      If you feel that the React documentation goes at a faster pace than you’re comfortable with, check out this overview of React by Tania Rascia. It introduces the most important React concepts in a detailed, beginner-friendly way. Once you’re done, give the documentation another try!
-
-      React for Designers
-      If you’re coming from a design background, these resources are a great place to get started.
-
-      JavaScript Resources
-      The React documentation assumes some familiarity with programming in the JavaScript language. You don’t have to be an expert, but it’s harder to learn both React and JavaScript at the same time.
-
-      We recommend going through this JavaScript overview to check your knowledge level. It will take you between 30 minutes and an hour but you will feel more confident learning React.
+      Hi Roshani , what's on your mind today?
     </h3>
   </div>
 );
@@ -141,168 +106,7 @@ const customerGridStatus = (props) => (
     <p>{props.Status}</p>
   </div>
 );
-// export const areaPrimaryXAxis = {
-//   valueType: 'DateTime',
-//   labelFormat: 'y',
-//   majorGridLines: { width: 0 },
-//   intervalType: 'Years',
-//   edgeLabelPlacement: 'Shift',
-//   labelStyle: { color: 'gray' },
-// };
 
-// export const areaPrimaryYAxis = {
-//   labelFormat: '{value}%',
-//   lineStyle: { width: 0 },
-//   maximum: 4,
-//   interval: 1,
-//   majorTickLines: { width: 0 },
-//   minorTickLines: { width: 0 },
-//   labelStyle: { color: 'gray' },
-
-// };
-// export const barPrimaryXAxis = {
-//   valueType: 'Category',
-//   interval: 1,
-//   majorGridLines: { width: 0 },
-// };
-// export const barPrimaryYAxis = {
-//   majorGridLines: { width: 0 },
-//   majorTickLines: { width: 0 },
-//   lineStyle: { width: 0 },
-//   labelStyle: { color: 'transparent' },
-// };
-// const areaChartData = [
-//   [
-//     { x: new Date(2002, 0, 1), y: 2.2 }, 
-//     { x: new Date(2003, 0, 1), y: 3.4 },
-//     { x: new Date(2004, 0, 1), y: 2.8 },
-//     { x: new Date(2005, 0, 1), y: 1.6 },
-//     { x: new Date(2006, 0, 1), y: 2.3 },
-//     { x: new Date(2007, 0, 1), y: 2.5 },
-//     { x: new Date(2008, 0, 1), y: 2.9 },
-//     { x: new Date(2009, 0, 1), y: 3.8 },
-//     { x: new Date(2010, 0, 1), y: 1.4 },
-//     { x: new Date(2011, 0, 1), y: 3.1 },
-//   ],
-//   [
-//     { x: new Date(2002, 0, 1), y: 2 },
-//     { x: new Date(2003, 0, 1), y: 1.7 },
-//     { x: new Date(2004, 0, 1), y: 1.8 },
-//     { x: new Date(2005, 0, 1), y: 2.1 },
-//     { x: new Date(2006, 0, 1), y: 2.3 },
-//     { x: new Date(2007, 0, 1), y: 1.7 },
-//     { x: new Date(2008, 0, 1), y: 1.5 },
-//     { x: new Date(2009, 0, 1), y: 2.8 },
-//     { x: new Date(2010, 0, 1), y: 1.5 },
-//     { x: new Date(2011, 0, 1), y: 2.3 },
-//   ],
-//   [
-//     { x: new Date(2002, 0, 1), y: 0.8 },
-//     { x: new Date(2003, 0, 1), y: 1.3 },
-//     { x: new Date(2004, 0, 1), y: 1.1 },
-//     { x: new Date(2005, 0, 1), y: 1.6 },
-//     { x: new Date(2006, 0, 1), y: 2 },
-//     { x: new Date(2007, 0, 1), y: 1.7 },
-//     { x: new Date(2008, 0, 1), y: 2.3 },
-//     { x: new Date(2009, 0, 1), y: 2.7 },
-//     { x: new Date(2010, 0, 1), y: 1.1 },
-//     { x: new Date(2011, 0, 1), y: 2.3 },
-//   ],
-// ];
-
-// export const areaCustomSeries = [
-//   {
-//     dataSource: areaChartData[0],
-//     xName: 'x',
-//     yName: 'y',
-//     name: 'USA',
-//     opacity: '0.8',
-//     type: 'SplineArea',
-//     width: '2',
-
-//   },
-//   {
-//     dataSource: areaChartData[1],
-//     xName: 'x',
-//     yName: 'y',
-//     name: 'France',
-//     opacity: '0.8',
-//     type: 'SplineArea',
-//     width: '2',
-//   },
-//   {
-//     dataSource: areaChartData[2],
-//     xName: 'x',
-//     yName: 'y',
-//     name: 'Germany',
-//     opacity: '0.8',
-//     type: 'SplineArea',
-//     width: '2',
-//   },
-// ];
-
-// export const barChartData = [
-//   [
-//     { x: 'USA', y: 46 },
-//     { x: 'GBR', y: 27 },
-//     { x: 'CHN', y: 26 },
-//   ],
-//   [
-//     { x: 'USA', y: 37 },
-//     { x: 'GBR', y: 23 },
-//     { x: 'CHN', y: 18 },
-//   ],
-//   [
-//     { x: 'USA', y: 38 },
-//     { x: 'GBR', y: 17 },
-//     { x: 'CHN', y: 26 },
-//   ],
-// ];
-
-// export const barCustomSeries = [
-//   {
-//     dataSource: barChartData[0],
-//     xName: 'x',
-//     yName: 'y',
-//     name: 'Gold',
-//     type: 'Column',
-//     marker: {
-//       dataLabel: {
-//         visible: true,
-//         position: 'Top',
-//         font: { fontWeight: '600', color: '#ffffff' },
-//       },
-//     },
-//   },
-//   {
-//     dataSource: barChartData[1],
-//     xName: 'x',
-//     yName: 'y',
-//     name: 'Silver',
-//     type: 'Column',
-//     marker: {
-//       dataLabel: {
-//         visible: true,
-//         position: 'Top',
-//         font: { fontWeight: '600', color: '#ffffff' },
-//       },
-//     },
-//   },
-//   {
-//     dataSource: barChartData[2],
-//     xName: 'x',
-//     yName: 'y',
-//     name: 'Bronze',
-//     type: 'Column',
-//     marker: {
-//       dataLabel: {
-//         visible: true,
-//         position: 'Top',
-//         font: { fontWeight: '600', color: '#ffffff' },
-//       },
-//     },
-//   },
-// ];
 export const colorMappingData = [
  [
     { x: 'Jan', y: 6.96 },
@@ -471,33 +275,7 @@ export const employeesGrid = [
 ];
 
 export const links = [
-  // {
-  //   title: 'Dashboard',
-  //   links: [
-  //     {
-  //       name: 'ecommerce',
-  //       icon: <FiShoppingBag />,
-  //     },
-  //   ],
-  // },
-
-  // {
-  //   title: 'Pages',
-  //   links: [
-  //     {
-  //       name: 'orders',
-  //       icon: <AiOutlineShoppingCart />,
-  //     },
-  //     {
-  //       name: 'employees',
-  //       icon: <IoMdContacts />,
-  //     },
-  //     {
-  //       name: 'customers',
-  //       icon: <RiContactsLine />,
-  //     },
-  //   ],
-  // },
+ 
   {
     title: 'Apps',
     links: [
@@ -513,50 +291,9 @@ export const links = [
         name: 'editor',
         icon: <FiEdit />,
       },
-      // {
-      //   name: 'color-picker',
-      //   icon: <BiColorFill />,
-      // },
+     
     ],
   }
-  // {
-    // title: 'Charts',
-    // links: [
-    //   {
-    //     name: 'line',
-    //     icon: <AiOutlineStock />,
-    //   },
-    //   {
-    //     name: 'area',
-    //     icon: <AiOutlineAreaChart />,
-    //   },
-
-    //   {
-    //     name: 'bar',
-    //     icon: <AiOutlineBarChart />,
-    //   },
-    //   {
-    //     name: 'pie',
-    //     icon: <FiPieChart />,
-    //   },
-    //   {
-    //     name: 'financial',
-    //     icon: <RiStockLine />,
-    //   },
-    //   {
-    //     name: 'color-mapping',
-    //     icon: <BsBarChart />,
-    //   },
-    //   {
-    //     name: 'pyramid',
-    //     icon: <GiLouvrePyramid />,
-    //   },
-    //   {
-    //     name: 'stacked',
-    //     icon: <AiOutlineBarChart />,
-    //   },
-    // ],
-  // },
 ];
 
 export const cartData = [
@@ -866,10 +603,11 @@ export const userProfileData = [
   },
   {
     icon: <FiCreditCard />,
-    title: 'My Tasks',
-    desc: 'To-do and Daily Tasks',
+    title: 'My Manit Profile',
+    desc: 'Quick access link',
     iconColor: 'rgb(255, 244, 229)',
     iconBg: 'rgb(254, 201, 15)',
+     iconurl:'https://students.manit.ac.in/home'
   },
 ];
 
@@ -2848,198 +2586,7 @@ export const ordersData = [
 ];
 
 export const scheduleData = [
-  // {
-  //   Id: 1,
-  //   Subject: 'Explosion of Betelgeuse Star',
-  //   Location: 'Space Center USA',
-  //   StartTime: '2021-01-10T04:00:00.000Z',
-  //   EndTime: '2021-01-10T05:30:00.000Z',
-  //   CategoryColor: '#1aaa55',
-  // },
-  // {
-  //   Id: 2,
-  //   Subject: 'Thule Air Crash Report',
-  //   Location: 'Newyork City',
-  //   StartTime: '2021-01-11T06:30:00.000Z',
-  //   EndTime: '2021-01-11T08:30:00.000Z',
-  //   CategoryColor: '#357cd2',
-  // },
-  // {
-  //   Id: 3,
-  //   Subject: 'Blue Moon Eclipse',
-  //   Location: 'Space Center USA',
-  //   StartTime: '2021-01-12T04:00:00.000Z',
-  //   EndTime: '2021-01-12T05:30:00.000Z',
-  //   CategoryColor: '#7fa900',
-  // },
-  // {
-  //   Id: 4,
-  //   Subject: 'Meteor Showers in 2021',
-  //   Location: 'Space Center USA',
-  //   StartTime: '2021-01-13T07:30:00.000Z',
-  //   EndTime: '2021-01-13T09:00:00.000Z',
-  //   CategoryColor: '#ea7a57',
-  // },
-  // {
-  //   Id: 5,
-  //   Subject: 'Milky Way as Melting pot',
-  //   Location: 'Space Center USA',
-  //   StartTime: '2021-01-14T06:30:00.000Z',
-  //   EndTime: '2021-01-14T08:30:00.000Z',
-  //   CategoryColor: '#00bdae',
-  // },
-  // {
-  //   Id: 6,
-  //   Subject: 'Mysteries of Bermuda Triangle',
-  //   Location: 'Bermuda',
-  //   StartTime: '2021-01-14T04:00:00.000Z',
-  //   EndTime: '2021-01-14T05:30:00.000Z',
-  //   CategoryColor: '#f57f17',
-  // },
-  // {
-  //   Id: 7,
-  //   Subject: 'Glaciers and Snowflakes',
-  //   Location: 'Himalayas',
-  //   StartTime: '2021-01-15T05:30:00.000Z',
-  //   EndTime: '2021-01-15T07:00:00.000Z',
-  //   CategoryColor: '#1aaa55',
-  // },
-  // {
-  //   Id: 8,
-  //   Subject: 'Life on Mars',
-  //   Location: 'Space Center USA',
-  //   StartTime: '2021-01-16T03:30:00.000Z',
-  //   EndTime: '2021-01-16T04:30:00.000Z',
-  //   CategoryColor: '#357cd2',
-  // },
-  // {
-  //   Id: 9,
-  //   Subject: 'Alien Civilization',
-  //   Location: 'Space Center USA',
-  //   StartTime: '2021-01-18T05:30:00.000Z',
-  //   EndTime: '2021-01-18T07:30:00.000Z',
-  //   CategoryColor: '#7fa900',
-  // },
-  // {
-  //   Id: 10,
-  //   Subject: 'Wildlife Galleries',
-  //   Location: 'Africa',
-  //   StartTime: '2021-01-20T05:30:00.000Z',
-  //   EndTime: '2021-01-20T07:30:00.000Z',
-  //   CategoryColor: '#ea7a57',
-  // },
-  // {
-  //   Id: 11,
-  //   Subject: 'Best Photography 2021',
-  //   Location: 'London',
-  //   StartTime: '2021-01-21T04:00:00.000Z',
-  //   EndTime: '2021-01-21T05:30:00.000Z',
-  //   CategoryColor: '#00bdae',
-  // },
-  // {
-  //   Id: 12,
-  //   Subject: 'Smarter Puppies',
-  //   Location: 'Sweden',
-  //   StartTime: '2021-01-08T04:30:00.000Z',
-  //   EndTime: '2021-01-08T06:00:00.000Z',
-  //   CategoryColor: '#f57f17',
-  // },
-  // {
-  //   Id: 13,
-  //   Subject: 'Myths of Andromeda Galaxy',
-  //   Location: 'Space Center USA',
-  //   StartTime: '2021-01-06T05:00:00.000Z',
-  //   EndTime: '2021-01-06T07:00:00.000Z',
-  //   CategoryColor: '#1aaa55',
-  // },
-  // {
-  //   Id: 14,
-  //   Subject: 'Aliens vs Humans',
-  //   Location: 'Research Center of USA',
-  //   StartTime: '2021-01-05T04:30:00.000Z',
-  //   EndTime: '2021-01-05T06:00:00.000Z',
-  //   CategoryColor: '#357cd2',
-  // },
-  // {
-  //   Id: 15,
-  //   Subject: 'Facts of Humming Birds',
-  //   Location: 'California',
-  //   StartTime: '2021-01-19T04:00:00.000Z',
-  //   EndTime: '2021-01-19T05:30:00.000Z',
-  //   CategoryColor: '#7fa900',
-  // },
-  // {
-  //   Id: 16,
-  //   Subject: 'Sky Gazers',
-  //   Location: 'Alaska',
-  //   StartTime: '2021-01-22T05:30:00.000Z',
-  //   EndTime: '2021-01-22T07:30:00.000Z',
-  //   CategoryColor: '#ea7a57',
-  // },
-  // {
-  //   Id: 17,
-  //   Subject: 'The Cycle of Seasons',
-  //   Location: 'Research Center of USA',
-  //   StartTime: '2021-01-11T00:00:00.000Z',
-  //   EndTime: '2021-01-11T02:00:00.000Z',
-  //   CategoryColor: '#00bdae',
-  // },
-  // {
-  //   Id: 18,
-  //   Subject: 'Space Galaxies and Planets',
-  //   Location: 'Space Center USA',
-  //   StartTime: '2021-01-11T11:30:00.000Z',
-  //   EndTime: '2021-01-11T13:00:00.000Z',
-  //   CategoryColor: '#f57f17',
-  // },
-  // {
-  //   Id: 19,
-  //   Subject: 'Lifecycle of Bumblebee',
-  //   Location: 'San Fransisco',
-  //   StartTime: '2021-01-14T00:30:00.000Z',
-  //   EndTime: '2021-01-14T02:00:00.000Z',
-  //   CategoryColor: '#7fa900',
-  // },
-  // {
-  //   Id: 20,
-  //   Subject: 'Alien Civilization',
-  //   Location: 'Space Center USA',
-  //   StartTime: '2021-01-14T10:30:00.000Z',
-  //   EndTime: '2021-01-14T12:30:00.000Z',
-  //   CategoryColor: '#ea7a57',
-  // },
-  // {
-  //   Id: 21,
-  //   Subject: 'Alien Civilization',
-  //   Location: 'Space Center USA',
-  //   StartTime: '2021-01-10T08:30:00.000Z',
-  //   EndTime: '2021-01-10T10:30:00.000Z',
-  //   CategoryColor: '#ea7a57',
-  // },
-  // {
-  //   Id: 22,
-  //   Subject: 'The Cycle of Seasons',
-  //   Location: 'Research Center of USA',
-  //   StartTime: '2021-01-12T09:00:00.000Z',
-  //   EndTime: '2021-01-12T10:30:00.000Z',
-  //   CategoryColor: '#00bdae',
-  // },
-  // {
-  //   Id: 23,
-  //   Subject: 'Sky Gazers',
-  //   Location: 'Greenland',
-  //   StartTime: '2021-01-15T09:00:00.000Z',
-  //   EndTime: '2021-01-15T10:30:00.000Z',
-  //   CategoryColor: '#ea7a57',
-  // },
-  // {
-  //   Id: 24,
-  //   Subject: 'Facts of Humming Birds',
-  //   Location: 'California',
-  //   StartTime: '2021-01-16T07:00:00.000Z',
-  //   EndTime: '2021-01-16T09:00:00.000Z',
-  //   CategoryColor: '#7fa900',
-  // },
+  
 ];
 
 export const lineChartData = [
@@ -3228,7 +2775,7 @@ export const kanbanData = [
     Id: 'Task 1',
     Title: 'Task - 29001',
     Status: 'Open',
-    Summary: 'Analyze the new requirements gathered from the customer.',
+    Summary: '',
     Type: 'Story',
     Priority: 'Low',
     Tags: 'Analyze,Customer',
@@ -3242,7 +2789,7 @@ export const kanbanData = [
     Id: 'Task 2',
     Title: 'Task - 29002',
     Status: 'InProgress',
-    Summary: 'Improve application performance',
+    Summary: '',
     Type: 'Improvement',
     Priority: 'Normal',
     Tags: 'Improvement',
@@ -3256,7 +2803,7 @@ export const kanbanData = [
     Id: 'Task 3',
     Title: 'Task - 29003',
     Status: 'Open',
-    Summary: 'Arrange a web meeting with the customer to get new requirements.',
+    Summary: '',
     Type: 'Others',
     Priority: 'Critical',
     Tags: 'Meeting',
@@ -3270,7 +2817,7 @@ export const kanbanData = [
     Id: 'Task 4',
     Title: 'Task - 29004',
     Status: 'InProgress',
-    Summary: 'Fix the issues reported in the IE browser.',
+    Summary: '',
     Type: 'Bug',
     Priority: 'Critical',
     Tags: 'IE',
@@ -3284,7 +2831,7 @@ export const kanbanData = [
     Id: 'Task 5',
     Title: 'Task - 29005',
     Status: 'Review',
-    Summary: 'Fix the issues reported by the customer.',
+    Summary: '',
     Type: 'Bug',
     Priority: 'Low',
     Tags: 'Customer',
@@ -3298,7 +2845,7 @@ export const kanbanData = [
     Id: 'Task 6',
     Title: 'Task - 29007',
     Status: 'Validate',
-    Summary: 'Validate new requirements',
+    Summary: '',
     Type: 'Improvement',
     Priority: 'Low',
     Tags: 'Validation',
@@ -3312,7 +2859,7 @@ export const kanbanData = [
     Id: 'Task 7',
     Title: 'Task - 29009',
     Status: 'Review',
-    Summary: 'Fix the issues reported in Safari browser.',
+    Summary: '',
     Type: 'Bug',
     Priority: 'Critical',
     Tags: 'Fix,Safari',
@@ -3326,7 +2873,7 @@ export const kanbanData = [
     Id: 'Task 8',
     Title: 'Task - 29010',
     Status: 'Close',
-    Summary: 'Test the application in the IE browser.',
+    Summary: '',
     Type: 'Story',
     Priority: 'Low',
     Tags: 'Review,IE',
@@ -3340,7 +2887,7 @@ export const kanbanData = [
     Id: 'Task 9',
     Title: 'Task - 29011',
     Status: 'Validate',
-    Summary: 'Validate the issues reported by the customer.',
+    Summary: '',
     Type: 'Story',
     Priority: 'High',
     Tags: 'Validation,Fix',
@@ -3354,7 +2901,7 @@ export const kanbanData = [
     Id: 'Task 10',
     Title: 'Task - 29015',
     Status: 'Open',
-    Summary: 'Show the retrieved data from the server in grid control.',
+    Summary: '',
     Type: 'Story',
     Priority: 'High',
     Tags: 'Database,SQL',
@@ -3368,7 +2915,7 @@ export const kanbanData = [
     Id: 'Task 11',
     Title: 'Task - 29016',
     Status: 'InProgress',
-    Summary: 'Fix cannot open user’s default database SQL error.',
+    Summary: '',
     Priority: 'Critical',
     Type: 'Bug',
     Tags: 'Database,Sql2008',
@@ -3382,7 +2929,7 @@ export const kanbanData = [
     Id: 'Task 12',
     Title: 'Task - 29017',
     Status: 'Review',
-    Summary: 'Fix the issues reported in data binding.',
+    Summary: '',
     Type: 'Story',
     Priority: 'Normal',
     Tags: 'Databinding',
@@ -3396,7 +2943,7 @@ export const kanbanData = [
     Id: 'Task 13',
     Title: 'Task - 29018',
     Status: 'Close',
-    Summary: 'Analyze SQL server 2008 connection.',
+    Summary: '',
     Type: 'Story',
     Priority: 'Critical',
     Tags: 'Grid,Sql',
@@ -3410,7 +2957,7 @@ export const kanbanData = [
     Id: 'Task 14',
     Title: 'Task - 29019',
     Status: 'Validate',
-    Summary: 'Validate databinding issues.',
+    Summary: '',
     Type: 'Story',
     Priority: 'Low',
     Tags: 'Validation',
@@ -3424,7 +2971,7 @@ export const kanbanData = [
     Id: 'Task 15',
     Title: 'Task - 29020',
     Status: 'Close',
-    Summary: 'Analyze grid control.',
+    Summary: '',
     Type: 'Story',
     Priority: 'High',
     Tags: 'Analyze',
@@ -3438,7 +2985,7 @@ export const kanbanData = [
     Id: 'Task 16',
     Title: 'Task - 29021',
     Status: 'Close',
-    Summary: 'Stored procedure for initial data binding of the grid.',
+    Summary: '',
     Type: 'Others',
     Priority: 'Critical',
     Tags: 'Databinding',
@@ -3452,7 +2999,7 @@ export const kanbanData = [
     Id: 'Task 17',
     Title: 'Task - 29022',
     Status: 'Close',
-    Summary: 'Analyze stored procedures.',
+    Summary: '',
     Type: 'Story',
     Priority: 'Critical',
     Tags: 'Procedures',
@@ -3466,7 +3013,7 @@ export const kanbanData = [
     Id: 'Task 18',
     Title: 'Task - 29023',
     Status: 'Validate',
-    Summary: 'Validate editing issues.',
+    Summary: '',
     Type: 'Story',
     Priority: 'Critical',
     Tags: 'Editing',
@@ -3480,7 +3027,7 @@ export const kanbanData = [
     Id: 'Task 19',
     Title: 'Task - 29024',
     Status: 'Review',
-    Summary: 'Test editing functionality.',
+    Summary: '',
     Type: 'Story',
     Priority: 'Normal',
     Tags: 'Editing,Test',
@@ -3494,7 +3041,7 @@ export const kanbanData = [
     Id: 'Task 20',
     Title: 'Task - 29025',
     Status: 'Open',
-    Summary: 'Enhance editing functionality.',
+    Summary: '',
     Type: 'Improvement',
     Priority: 'Low',
     Tags: 'Editing',
@@ -3508,7 +3055,7 @@ export const kanbanData = [
     Id: 'Task 21',
     Title: 'Task - 29026',
     Status: 'InProgress',
-    Summary: 'Improve the performance of the editing functionality.',
+    Summary: '',
     Type: 'Epic',
     Priority: 'High',
     Tags: 'Performance',
@@ -3522,7 +3069,7 @@ export const kanbanData = [
     Id: 'Task 22',
     Title: 'Task - 29027',
     Status: 'Open',
-    Summary: 'Arrange web meeting with the customer to show editing demo.',
+    Summary: '',
     Type: 'Others',
     Priority: 'High',
     Tags: 'Meeting,Editing',
@@ -3536,7 +3083,7 @@ export const kanbanData = [
     Id: 'Task 23',
     Title: 'Task - 29029',
     Status: 'Review',
-    Summary: 'Fix the editing issues reported by the customer.',
+    Summary: '',
     Type: 'Bug',
     Priority: 'Low',
     Tags: 'Editing,Fix',
@@ -3550,7 +3097,7 @@ export const kanbanData = [
     Id: 'Task 24',
     Title: 'Task - 29030',
     Status: 'Testing',
-    Summary: 'Fix the issues reported by the customer.',
+    Summary: '',
     Type: 'Bug',
     Priority: 'Critical',
     Tags: 'Customer',
@@ -3564,7 +3111,7 @@ export const kanbanData = [
     Id: 'Task 25',
     Title: 'Task - 29031',
     Status: 'Testing',
-    Summary: 'Fix the issues reported in Safari browser.',
+    Summary: '',
     Type: 'Bug',
     Priority: 'Critical',
     Tags: 'Fix,Safari',

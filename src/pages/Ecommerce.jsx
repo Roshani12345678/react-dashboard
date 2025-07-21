@@ -16,9 +16,6 @@ const recentTransactions = [];
 const weeklyStats = [];
 const dropdownData = [];
 
-const Button = ({ text }) => (
-  <button className="bg-blue-500 text-white px-4 py-2 rounded">{text}</button>
-);
 
 const DropDown = ({ currentMode }) => (
   <div className="w-28 border-1 border-color px-2 py-1 rounded-md">
@@ -43,19 +40,12 @@ const Ecommerce = () => {
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
           <div className="flex justify-between items-center">
             <div>
-              <p className="font-bold text-gray-400">Earnings</p>
-              <p className="text-2xl">$63,448.78</p>
+              <p className="font-bold text-gray-400">Hey There</p>
+              <p className="text-2xl">Whats-up</p>
             </div>
-            <button
-              type="button"
-              style={{ backgroundColor: currentColor }}
-              className="text-2xl opacity-0.9 text-white hover:drop-shadow-xl rounded-full p-4"
-            >
-              <BsCurrencyDollar />
-            </button>
+            
           </div>
           <div className="mt-6">
-            <Button text="Download" />
           </div>
         </div>
       </div>
@@ -65,9 +55,9 @@ const Ecommerce = () => {
         <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
           <div className="flex justify-between">
             <p className="text-xl font-semibold">Daily Activities</p>
-            <button type="button" className="text-xl font-semibold text-gray-500">
+            {/* <button type="button" className="text-xl font-semibold text-gray-500">
               <IoIosMore />
-            </button>
+            </button> */}
           </div>
           <div className="mt-10">
             <img
@@ -76,13 +66,13 @@ const Ecommerce = () => {
               alt=""
             />
             <div className="mt-8">
-              <p className="font-semibold text-lg">React 18 coming soon!</p>
-              <p className="text-gray-400">By Johnathan Doe</p>
+              <p className="font-semibold text-lg">Upgrading every single day</p>
+              <p className="text-gray-400">Roshani Verma</p>
               <p className="mt-8 text-sm text-gray-400">
-                This will be the small description for the news you have shown here. There could be some great info.
+                Made by me to track my daily activities and progress. This is a simple yet effective way to stay organized and motivated.
               </p>
               <div className="mt-3">
-                <Button text="Read More" />
+
               </div>
             </div>
           </div>
